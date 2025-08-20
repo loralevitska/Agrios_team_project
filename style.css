@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4px;
+    flex-wrap: nowrap;
+}
+
+.divider-left, 
+.divider-middle, 
+.divider-right {
+    flex: 1;
+     height: 4px;
+}
+
+.divider-left {
+    background-color: #4BAF47;
+}
+.divider-middle {
+    background-color: #C5CE38;
+    height: 4px;
+}
+.divider-right {
+    background-color: #EEC044;
+    height: 4px;
+}
+
+header .top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 14px;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-bar {
+    
+    height: 79px;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    list-style: none;
+    padding: 0 2rem;
+    margin: 0;
+    height: 100%;
+
+    background-image: url('assets/navSectionBackImg.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0 2rem;
+  margin: 0;
+  background: white;
+  border-top: 1px solid #eee;
+}
+
+nav ul li {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+nav ul li.active {
+  color: green;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  height: 500px;
+  background-image: url('assets/mainBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-family: 'Brush Script MT', cursive;
+  margin: 0;
+}
+
+.discover-btn {
+  background-color: #38E5BE;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+  background: #fff;
+}
+
+.feature-box {
+  background: #fff;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.feature-box h4 {
+  color: orange;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.intro-img img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.intro-text {
+  max-width: 500px;
+}
+
+.intro-text .highlight {
+  color: orange;
+  font-weight: bold;
+}
+
+.intro-text .green {
+  color: green;
+  font-weight: bold;
+}
